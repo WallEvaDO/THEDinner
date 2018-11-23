@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/Breakfast/breakfastList",
+    "pages/Dinner/dinnerList",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "晚饭吃什么呢",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#7A7E83",
+    "selectedColor":"#3cc51f",
+    "borderStyle":"black",
+    "backgroundColor":"#ffffff",
+    "list":[
+      {
+        "pagePath":"pages/Breakfast/breakfastList",
+        "iconPath":"Images/aze.png",
+        "selectedIconPath":"Images/aze.png",
+        "text":"早饭"
+      },
+      {
+        "pagePath": "pages/Dinner/dinnerList",
+        "iconPath": "Images/aze.png",
+        "selectedIconPath": "Images/aze.png",
+        "text": "晚饭"
+      }
+    ]
+  }
+}
